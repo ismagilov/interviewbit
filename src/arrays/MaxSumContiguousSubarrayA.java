@@ -1,5 +1,8 @@
 package arrays;
 
+/**
+* https://www.interviewbit.com/problems/max-sum-contiguous-subarray/
+*/
 public class MaxSumContiguousSubarrayA {
 	// DO NOT MODFIY THE LIST. 
 	public int maxSubArray(final List<Integer> a) {
