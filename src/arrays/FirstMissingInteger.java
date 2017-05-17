@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.ArrayList;
+
 /**
 * https://www.interviewbit.com/problems/first-missing-integer/
 */
