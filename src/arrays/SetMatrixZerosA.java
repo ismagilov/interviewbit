@@ -3,7 +3,7 @@ package arrays;
 /**
 * https://www.interviewbit.com/problems/set-matrix-zeros/
 */
-public class SetMatrixZeros {
+public class SetMatrixZerosA {
 	public void setZeroes(ArrayList<ArrayList<Integer>> a) {
 	    LinkedHashSet<Integer> rows = new LinkedHashSet<>();
 	    LinkedHashSet<Integer> columns = new LinkedHashSet<>();
