@@ -1,5 +1,8 @@
 package arrays;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
 * https://www.interviewbit.com/problems/find-duplicate-in-array/
 *

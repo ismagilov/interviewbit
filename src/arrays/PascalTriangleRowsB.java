@@ -1,11 +1,13 @@
 package arrays;
 
+import java.util.ArrayList;
+
 /**
 * https://www.interviewbit.com/problems/pascal-triangle-rows/
 *
 * More clear code, same idea.
 */
-public class Solution {
+public class PascalTriangleRowsB {
 	public ArrayList<ArrayList<Integer>> generate(int a) {
 	    ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         

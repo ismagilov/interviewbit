@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.ArrayList;
+
 public class KthRowOfPascalsTriangle {
 	public ArrayList<Integer> getRow(int a) {
 	    ArrayList<Integer> res = new ArrayList<>();

@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.ArrayList;
+
 /**
  * https://www.interviewbit.com/problems/merge-intervals/
  *
@@ -51,3 +53,4 @@ public class MergeIntervals {
         return res;
     }
 }
+

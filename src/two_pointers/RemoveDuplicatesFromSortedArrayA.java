@@ -1,5 +1,8 @@
 package two_pointers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
 * https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array/
 */ 

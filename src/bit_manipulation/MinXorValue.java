@@ -1,5 +1,8 @@
 package bit_manipulation;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+
 /**
 * https://www.interviewbit.com/problems/min-xor-value/
 */

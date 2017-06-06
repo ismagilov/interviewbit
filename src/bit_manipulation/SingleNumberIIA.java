@@ -1,9 +1,11 @@
 package bit_manipulation;
 
+import java.util.List;
+
 /**
 * https://www.interviewbit.com/problems/single-number-ii/
 */
-public class SingleNumberII {
+public class SingleNumberIIA {
 	// DO NOT MODIFY THE LIST
 	public int singleNumber(final List<Integer> a) {
 	    int[] bitsSum = new int[32];
