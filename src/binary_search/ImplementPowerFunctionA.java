@@ -2,8 +2,10 @@ package binary_search;
 
 /**
 * https://www.interviewbit.com/problems/implement-power-function/
+*
+* Recursion solution.
 */
-public class ImplementPowerFunction {
+public class ImplementPowerFunctionA {
 	public int pow(int x, int n, int d) {
 	    if (x == 0)
 	        return 0;
