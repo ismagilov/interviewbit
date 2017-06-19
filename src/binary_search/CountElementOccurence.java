@@ -1,4 +1,4 @@
-package strings;
+package binary_search;
 
 /**
 * https://www.interviewbit.com/problems/count-element-occurence/
