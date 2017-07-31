@@ -1,3 +1,5 @@
+package hashing;
+
 /**
 * https://www.interviewbit.com/problems/valid-sudoku/
 */
