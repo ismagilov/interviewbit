@@ -1,5 +1,7 @@
 package linked_lists;
 
+import library.ListNode;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {

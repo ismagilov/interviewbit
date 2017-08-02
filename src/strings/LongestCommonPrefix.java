@@ -1,5 +1,7 @@
 package strings;
 
+import java.util.ArrayList;
+
 /**
 * https://www.interviewbit.com/problems/longest-common-prefix/
 */

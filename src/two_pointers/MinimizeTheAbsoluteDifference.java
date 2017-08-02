@@ -1,5 +1,7 @@
 package two_pointers;
 
+import java.util.ArrayList;
+
 /**
 * https://www.interviewbit.com/problems/minimize-the-absolute-difference/
 */

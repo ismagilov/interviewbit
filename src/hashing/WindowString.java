@@ -1,7 +1,13 @@
+package hashing;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 /**
 * https://www.interviewbit.com/problems/window-string/
 */
-public class Solution {
+public class WindowString {
 	public String minWindow(String S, String T) {
 	    HashMap<Character, Integer> ref = new HashMap<>();
 	    HashMap<Character, Integer> cur = new HashMap<>();

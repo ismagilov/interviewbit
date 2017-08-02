@@ -1,5 +1,7 @@
 package stacks_and_queues;
 
+import java.util.Stack;
+
 /**
 * https://www.interviewbit.com/problems/min-stack/
 *

@@ -1,5 +1,7 @@
 package binary_search;
 
+import java.util.List;
+
 /**
 * https://www.interviewbit.com/problems/count-element-occurence/
 */

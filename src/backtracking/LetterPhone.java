@@ -1,10 +1,12 @@
+import java.util.ArrayList;
+
 /**
 * https://www.interviewbit.com/problems/letter-phone/
 */
 public class LetterPhone {
     private final String[] phone;
     
-    public Solution() {
+    public LetterPhone() {
         String[] ph = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         phone = ph;
     }

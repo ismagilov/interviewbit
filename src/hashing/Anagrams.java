@@ -1,3 +1,7 @@
+package hashing;
+
+import java.util.*;
+
 /**
 * https://www.interviewbit.com/problems/anagrams/
 */

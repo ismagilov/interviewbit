@@ -1,4 +1,7 @@
-package: hashing;
+package hashing;
+
+import java.util.HashSet;
+import java.util.List;
 
 /**
 * https://www.interviewbit.com/problems/diffk-ii/
@@ -12,7 +15,7 @@ public class DiffkII {
 	        // While we iterate through the array, we need to check that 
 	        // set contains current plus diff (A[i] - A[cur] = diff) or
 	        // set contains current minus diff (A[cur] - A[i] = diff) 
-	        if (set.contains(n + diff) || h.contains(n - diff)) 
+	        if (set.contains(n + diff) || set.contains(n - diff))
 	            return 1;
 	        
 	        set.add(n);

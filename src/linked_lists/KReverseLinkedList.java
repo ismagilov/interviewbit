@@ -1,3 +1,5 @@
+import library.ListNode;
+
 /**
  * https://www.interviewbit.com/problems/k-reverse-linked-list/
  * 

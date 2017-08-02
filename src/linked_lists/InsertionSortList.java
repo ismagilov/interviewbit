@@ -1,5 +1,7 @@
 package linked_lists;
 
+import library.ListNode;
+
 /**
  * https://www.interviewbit.com/problems/insertion-sort-list/
  *

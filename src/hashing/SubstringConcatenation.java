@@ -1,3 +1,9 @@
+package hashing;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
 * https://www.interviewbit.com/problems/substring-concatenation/
 */

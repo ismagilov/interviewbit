@@ -3,7 +3,7 @@ package binary_search;
 /**
 * https://www.interviewbit.com/problems/square-root-of-integer/
 */
-public class Solution {
+public class SquareRootOfInteger {
 	public int sqrt(int a) {
 	    if (a == 0)
 	        return 0;

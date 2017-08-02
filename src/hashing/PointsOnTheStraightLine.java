@@ -1,5 +1,8 @@
 package hashing;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
 * https://www.interviewbit.com/problems/points-on-the-straight-line/
 */
