@@ -1,5 +1,8 @@
 package binary_search;
 
+/**
+ * It's not a task. Sample code for playing with binary search for the first or last occurrences.
+ */
 public class SearchFirstOrLastOccurence {
     public static int searchFirst(int[] arr, int x) {
         int b = 0, e = arr.length - 1;
