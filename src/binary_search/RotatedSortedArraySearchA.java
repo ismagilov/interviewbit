@@ -3,9 +3,9 @@ package binary_search;
 import java.util.List;
 
 /**
-* https://www.interviewbit.com/problems/rotated-sorted-array-search/
-*/
-public class RotatedSortedArraySearch {
+ * https://www.interviewbit.com/problems/rotated-sorted-array-search/
+ */
+public class RotatedSortedArraySearchA {
 	// DO NOT MODIFY THE LIST
     public int search(final List<Integer> a, int x) {
 	    int b = 0, e = a.size() - 1;
