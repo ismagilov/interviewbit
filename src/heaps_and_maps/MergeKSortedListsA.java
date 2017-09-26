@@ -10,7 +10,7 @@
  *
  * Heap-based solution.
  */
-public class Solution {
+public class MergeKSortedListsA {
 	public ListNode mergeKLists(ArrayList<ListNode> lists) {
 	    PriorityQueue<ListNode> h = new PriorityQueue<>(Comparator.comparingInt(node -> node.val));
 
