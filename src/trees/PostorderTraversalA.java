@@ -1,4 +1,8 @@
+package trees;
+
 /**
+ * Two stacks approach.
+ *
  * https://www.interviewbit.com/problems/postorder-traversal/
  *
  * Definition for binary tree
