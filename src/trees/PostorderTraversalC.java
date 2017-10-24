@@ -3,7 +3,7 @@ package trees;
 /**
  * https://www.interviewbit.com/problems/postorder-traversal/
  *
- * Aproach based on stack and prev, traversed element is added in one place.
+ * Aproach based on stack and prev. Traversed element is added in one place.
  *
  * Definition for binary tree
  * class TreeNode {
