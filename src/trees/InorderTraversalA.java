@@ -3,6 +3,8 @@ package trees;
 /**
  * https://www.interviewbit.com/problems/inorder-traversal/
  *
+ * Use stack.
+ *
  * Definition for binary tree
  * class TreeNode {
  *     int val;
@@ -11,7 +13,7 @@ package trees;
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class InorderTraversal {
+public class InorderTraversalA {
     public ArrayList<Integer> inorderTraversal(TreeNode root) {
 	    final ArrayDeque<TreeNode> stack = new ArrayDeque<>();
 	    final ArrayList<Integer> order = new ArrayList<>();
