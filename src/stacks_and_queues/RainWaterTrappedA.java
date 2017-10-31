@@ -13,8 +13,8 @@ public class RainWaterTrappedA {
 	    
 	    int left = 0; 
 	    int right = a.size() - 1;
-	    int leftMax = a.get(left);
-	    int rightMax = a.get(right);
+	    int leftMax = 0;
+	    int rightMax = 0;
 	    
 	    int v = 0;
 	    while (left < right) {
