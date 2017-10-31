@@ -1,3 +1,5 @@
+package stacks_and_queues;
+
 /**
 * https://www.interviewbit.com/problems/rain-water-trapped/
 *
