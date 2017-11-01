@@ -3,7 +3,7 @@ package stacks_and_queues;
 /**
 * https://www.interviewbit.com/problems/rain-water-trapped/
 *
-* One-pass solution with clearer logic.
+* One-pass solution with more clear logic.
 */
 public class RainWaterTrappedC {
 	// DO NOT MODIFY THE LIST
