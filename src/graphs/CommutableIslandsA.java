@@ -5,7 +5,7 @@ package graphs;
 *
 * Correct, but exceeds time limit.
 */
-public class CommutableIslands {
+public class CommutableIslandsA {
     public int solve(int A, ArrayList<ArrayList<Integer>> B) {
         ArrayList<Edge> edges = new ArrayList<>();
         HashMap<Integer, Set<Integer>> lookup = new HashMap<>();
