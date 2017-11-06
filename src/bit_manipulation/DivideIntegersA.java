@@ -1,3 +1,8 @@
+package bit_manipulation;
+
+/**
+* https://www.interviewbit.com/problems/divide-integers/
+*/
 public class DivideIntegersA {
 	public int divide(int dividend, int divisor) {
 	    if (divisor == 0)
