@@ -4,6 +4,7 @@ package bit_manipulation;
 * https://www.interviewbit.com/problems/divide-integers/
 *
 * Only bits approach.
+*
 */
 public class DivideIntegersB {
 	public int divide(int dividend, int divisor) {
