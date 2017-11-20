@@ -5,7 +5,7 @@ package binary_search;
 *
 * Solved using method for searching K-th element in two sorted arrays.
 */
-public class MedianOfArray {
+public class MedianOfArrayA {
 	// DO NOT MODIFY BOTH THE LISTS
 	public double findMedianSortedArrays(final List<Integer> a, final List<Integer> b) {
 	    int l = (a.size() + b.size() + 1) / 2;
