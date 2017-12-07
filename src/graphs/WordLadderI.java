@@ -3,7 +3,7 @@ package graphs;
 /**
 * https://www.interviewbit.com/problems/word-ladder-i/
 */
-public class Solution {
+public class WordLadderI {
 	public int ladderLength(String start, String end, ArrayList<String> dict) {
 	    Dict d = new Dict(dict);
 
@@ -57,18 +57,18 @@ public class Solution {
 	        }
 	    }
 	    
-	  	private boolean isOneLetterDiff(String w1, String w2) {
-    	    int cnt = 0;
-    	    for (int i = 0; i < w1.length(); i++) {
-    	        if (w1.charAt(i) != w2.charAt(i))
-    	            cnt++;
-    	            
-    	        if (cnt > 1)
-    	            break;
-    	    }
-    	    
-    	    return cnt == 1 ? true : false;
-    	}
+        private boolean isOneLetterDiff(String w1, String w2) {
+            int cnt = 0;
+            for (int i = 0; i < w1.length(); i++) {
+                if (w1.charAt(i) != w2.charAt(i))
+                    cnt++;
+
+                if (cnt > 1)
+                    break;
+            }
+
+            return cnt == 1 ? true : false;
+        }
     	
 	    private void addEdge(String w1, String w2) {
 	        Set<String> s = vs.getOrDefault(w1, new HashSet<>());
