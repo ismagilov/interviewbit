@@ -9,27 +9,18 @@ public class SlidingWindowMaximumA {
         ArrayDeque<Integer> q = new ArrayDeque<>();
         ArrayList<Integer> r = new ArrayList<>();
 
-        for (int i = 0; i < a.size() && i < w; i++) {
+        for (int i = 0; i < a.size(); i++) {
             int v = a.get(i);
             while (!q.isEmpty() && v > a.get(q.getLast()))
                 q.removeLast();
-
-            q.addLast(i);
-        }
-
-        if (!q.isEmpty())
-        r.add(a.get(q.getFirst()));
-
-        for (int i = w; i < a.size(); i++) {
-            int v = a.get(i);
-            while (!q.isEmpty() && v > a.get(q.getLast()))
-                q.removeLast();
-            while (!q.isEmpty() && q.getFirst() < i - w + 1)
+                
+            if (!q.isEmpty() && q.getFirst() < i - w + 1)
                 q.removeFirst();
                 
             q.addLast(i);
 
-            r.add(a.get(q.getFirst()));
+            if (i >= w - 1)
+                r.add(a.get(q.getFirst()));
         }
 
         return r;
