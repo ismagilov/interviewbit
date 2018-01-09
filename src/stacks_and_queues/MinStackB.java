@@ -12,7 +12,7 @@ class MinStackB {
     private Stack<Integer> mins = new Stack<>();
     
     public void push(int x) {
-        if (stack.empty() || x < mins.peek())
+        if (stack.empty() || x <= mins.peek())
             mins.push(x);
         
         stack.push(x);
